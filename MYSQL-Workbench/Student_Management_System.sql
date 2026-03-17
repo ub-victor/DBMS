@@ -14,6 +14,7 @@ Create Table students (
     create_at TimeStamp Default Current_timestamp
 );
 
+-- To describe our students table
 Desc students
 
 -- Insert Students' Data 
