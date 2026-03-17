@@ -76,9 +76,8 @@ Create Table enrollments(
     enrolled_at Timestamp Defaut Current_timestamp,
     
     Foreign Key (student_id) References  students(id),
-    Foreign Key (course_id) Refe
-
-)
+    Foreign Key (course_id) References courses(id)
+);
 
 
 
