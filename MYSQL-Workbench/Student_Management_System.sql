@@ -6,4 +6,10 @@ USE student_system;
 
 -- Create Student table
 
-
+Create Table students (
+	id Int Auto_increment primary key,
+    name Varchar(100),
+    email Varchar(100),
+    age Int,
+    create_at TimeStamp Default Current_timestamp
+);
