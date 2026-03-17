@@ -13,3 +13,7 @@ Create Table students (
     age Int,
     create_at TimeStamp Default Current_timestamp
 );
+
+Desc students
+
+-- Insert Students' Data 
