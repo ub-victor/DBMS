@@ -73,11 +73,13 @@ Create Table enrollments(
 	id Int Auto_increment Primary Key,
     student_id Int,
     course_id Int,
-    enrolled_at Timestamp Defaut Current_timestamp,
+    enrolled_at Timestamp Default Current_timestamp,
     
     Foreign Key (student_id) References  students(id),
     Foreign Key (course_id) References courses(id)
 );
+
+Desc enrollments;
 
 /*
 What is happening here?
@@ -101,20 +103,3 @@ Values
 (1, 2),
 (2, 2),
 (3, 3);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
