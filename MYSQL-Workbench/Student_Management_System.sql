@@ -79,6 +79,22 @@ Create Table enrollments(
     Foreign Key (course_id) References courses(id)
 );
 
+/*
+What is happening here?
+--------------------------
+student_id → points to students.id
+
+course_id → points to courses.id
+
+👉 This is called a Foreign Key
+
+It ensures:
+✔ You cannot enroll a student that doesn’t exist
+✔ Data stays consistent
+*/
+
+-- Enroll Students
+
 
 
 
