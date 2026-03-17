@@ -103,3 +103,27 @@ Values
 (1, 2),
 (2, 2),
 (3, 3);
+
+/*
+SELECT ... → choose what to display (student + course info)
+
+FROM enrollments → start from the linking table
+
+JOIN students ON enrollments.student_id = students.id
+→ connects each enrollment to a student
+
+JOIN courses ON enrollments.course_id = courses.id
+→ connects each enrollment to a course
+
+*/
+
+SELECT 
+    students.id AS student_id,
+    students.name AS student_name,
+    courses.id AS course_id,
+    courses.title AS course_name
+FROM enrollments
+JOIN students 
+    ON enrollments.student_id = students.id
+JOIN courses 
+    ON enrollments.course_id = courses.id;
