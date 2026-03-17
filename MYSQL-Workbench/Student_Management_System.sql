@@ -22,5 +22,5 @@ Insert Into students (name, email, age)
 Values
 ('Alice', 'alice@email,com', 20),
 ('Bob', 'bob@email,com', 22),
-('Charlie', 'charloe@email,com', 19),
+('Charlie', 'charloe@email,com', 19)
 
