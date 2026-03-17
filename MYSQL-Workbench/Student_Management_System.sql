@@ -50,6 +50,9 @@ Create Table coursed (
     instructor Varchar(100)
 );
 
+-- Insert data in courses
+
+Insert Into courses (cour)
 
 
 
