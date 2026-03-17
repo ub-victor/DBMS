@@ -25,5 +25,9 @@ Values
 ('Bob', 'bob@email,com', 22),
 ('Charlie', 'charloe@email,com', 19);
 
+-- View the Data inserted
+
+Select * From students;
+
 
 
