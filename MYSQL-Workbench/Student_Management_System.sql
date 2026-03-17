@@ -63,7 +63,7 @@ Values
 
 Select * From courses;
 
-Desc courses
+Desc courses;
 
 -- Create enrollments table
 
