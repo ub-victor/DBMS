@@ -33,6 +33,8 @@ Select * From students;
 
 Select name From students;
 Select * From students Where age> 19;
+Select * From students Order by age Desc;
+
 
 
 
