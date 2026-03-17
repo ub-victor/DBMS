@@ -15,7 +15,7 @@ Create Table students (
 );
 
 -- To describe our students table
-Desc students
+Desc students;
 
 -- Insert Students' Data 
 
