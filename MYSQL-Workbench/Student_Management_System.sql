@@ -44,6 +44,14 @@ Select * From students Order by age Desc;
          This is called a Many-to-Many relationship
 */
 
+Create Table coursed (
+	id Int Auto_increment Primary Key,
+    course_name Varchar(100),
+    instructor Varchar(100)
+);
+
+
+
 
 
 
