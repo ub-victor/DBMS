@@ -49,10 +49,15 @@ Create Table coursed (
     course_name Varchar(100),
     instructor Varchar(100)
 );
-
+-- Raname the coursed table to courses
 -- Insert data into courses table
 
-Insert Into courses (cour)
+Insert Into courses (course_name, instructor)
+Values
+('Mathematics', 'Dr. Smith'),
+('Computer Science', 'Dr. John'),
+('Physics', 'Dr. Brown');
+
 
 
 
