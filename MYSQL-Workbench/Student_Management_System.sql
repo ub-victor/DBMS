@@ -5,3 +5,5 @@ USE student_system;
 -- Use : Help to active/select that Created db and allow future activities goes inside it
 
 -- Create Student table
+
+
