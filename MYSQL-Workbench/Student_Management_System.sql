@@ -96,7 +96,7 @@ It ensures:
 -- Enroll Students
 
 Insert Into enrollments (student_id, course_id)
-VALUES
+Values
 (1, 1),
 (1, 2),
 (2, 2),
