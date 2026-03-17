@@ -40,7 +40,8 @@ Select * From students Order by age Desc;
 /*
  We want 
      - A student can take many courses
-     - A course can have Many-to-Many relationship
+     - A course can have many students
+         This is called a Many-to-Many relationship
 */
 
 
