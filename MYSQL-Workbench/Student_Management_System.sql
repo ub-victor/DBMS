@@ -63,6 +63,21 @@ Values
 
 Select * From courses;
 
+Desc courses
+
+-- Create enrollments table
+
+-- This table connects students ↔ courses
+
+Create Table enrollments(
+	
+
+)
+
+
+
+
+
 
 
 
