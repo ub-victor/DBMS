@@ -31,6 +31,8 @@ Select * From students;
 
 -- Some Practice 
 
+Select name From students;
+Select * From students Where age> 19;
 
 
 
