@@ -50,6 +50,9 @@ Create Table coursed (
     instructor Varchar(100)
 );
 -- Raname the coursed table to courses
+
+Rename Table coursed To courses;
+
 -- Insert data into courses table
 
 Insert Into courses (course_name, instructor)
