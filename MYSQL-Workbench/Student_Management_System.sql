@@ -29,6 +29,10 @@ Values
 
 Select * From students;
 
+-- Some Practice 
+
+
+
 
 
 
