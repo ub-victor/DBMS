@@ -61,6 +61,8 @@ Values
 ('Computer Science', 'Dr. John'),
 ('Physics', 'Dr. Brown');
 
+Select * From courses;
+
 
 
 
