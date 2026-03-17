@@ -35,6 +35,16 @@ Select name From students;
 Select * From students Where age> 19;
 Select * From students Order by age Desc;
 
+-- Add courses + Relationships
+
+/*
+ We want 
+     - A student can take many courses
+     - A course can have Many-to-Many relationship
+*/
+
+
+
 
 
 
