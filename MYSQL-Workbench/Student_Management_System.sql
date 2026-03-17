@@ -70,7 +70,10 @@ Desc courses
 -- This table connects students ↔ courses
 
 Create Table enrollments(
-	
+	id Int Auto_increment Primary Key,
+    student_id Int,
+    course_id Int,
+    enrolled_at Timestamp Defaut Current_timestamp,
 
 )
 
