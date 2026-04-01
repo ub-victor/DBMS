@@ -40,3 +40,6 @@ CREATE TABLE budgets (
     FOREIGN KEY (category_id) REFERENCES categories(id),
     UNIQUE KEY unique_budget (user_id, category_id, month_year)
 );
+
+INSERT INTO users (username, password, role) VALUES ('admin', 'admin', 'admin');
+Select * From users;
