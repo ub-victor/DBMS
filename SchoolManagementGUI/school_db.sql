@@ -46,3 +46,5 @@ CREATE TABLE payments (
     payment_date DATE DEFAULT (CURRENT_DATE),
     FOREIGN KEY (student_id) REFERENCES students(id) ON DELETE CASCADE
 );
+
+Desc students;
