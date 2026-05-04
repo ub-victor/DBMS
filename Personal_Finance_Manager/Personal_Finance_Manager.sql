@@ -42,4 +42,4 @@ CREATE TABLE budgets (
 );
 
 INSERT INTO users (username, password, role) VALUES ('admin', 'admin', 'admin');
-Select * From users;
+Select * From categories;
